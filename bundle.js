@@ -14622,7 +14622,7 @@
 				l = i.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png", {
 						attribution: '© <a href="https://www.openstreetmap.org/copyright/en">OpenStreetMap</a> contributors'
 					}),
-        w = i.tileLayer("https://{s}.tile.opencyclemap.org/cycle/{z}/{x}/{y}.png", {
+        w = i.tileLayer("https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=62e8ebfa9967458e8d06c86e92001c63", {
 						attribution: '© <a href="https://www.openstreetmap.org/copyright/en">OpenCycleMap</a> contributors'
 					}),
 				d = i.tileLayer("https://d6a1v2w10ny40.cloudfront.net/v0.1/{z}/{x}/{y}.png", {});
