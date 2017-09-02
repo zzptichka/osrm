@@ -15049,6 +15049,6 @@
 				leaflet: 31
 			}
 		]
-	}, {}, [54])(54)
+	}, {}, [54])
 });
 //# sourceMappingURL=bundle.js.map
