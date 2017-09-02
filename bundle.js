@@ -14622,6 +14622,9 @@
 				l = i.tileLayer("https://{s}.tile.openstreetmap.de/tiles/osmde/{z}/{x}/{y}.png", {
 						attribution: '© <a href="https://www.openstreetmap.org/copyright/en">OpenStreetMap</a> contributors'
 					}),
+        w = i.tileLayer("http://[v].tile.opencyclemap.org/cycle/[z]/[x]/[y].png", {
+						attribution: '© <a href="https://www.openstreetmap.org/copyright/en">OpenCycleMap</a> contributors'
+					}),
 				d = i.tileLayer("https://tools.geofabrik.de/osmi/tiles/routing_i/{z}/{x}/{y}.png", {});
 				e.exports = {
 					defaultState: {
@@ -14642,7 +14645,8 @@
 							"Mapbox Outdoors": o,
 							"Mapbox Streets Satellite": r,
 							"openstreetmap.org": s,
-							"openstreetmap.de.org": l
+							"openstreetmap.de.org": l,
+              "opencyclemap": w
 						}
 					],
 					overlay: {
