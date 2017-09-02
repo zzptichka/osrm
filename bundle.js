@@ -14626,6 +14626,7 @@
 						attribution: '© <a href="https://www.openstreetmap.org/copyright/en">OpenCycleMap</a> contributors'
 					}),
 				d = i.tileLayer("https://tools.geofabrik.de/osmi/tiles/routing_i/{z}/{x}/{y}.png", {});
+        m = i.tileLayer("https://d6a1v2w10ny40.cloudfront.net/v0.1/{z}/{x}/{y}.png", {});
 				e.exports = {
 					defaultState: {
 						center: i.latLng(38.8995, -77.0269),
@@ -14650,14 +14651,16 @@
 						}
 					],
 					overlay: {
-						"Small Components": d
+						"Small Components": d,
+            "Mapillary": m
 					},
 					baselayer: {
 						one: a,
 						two: o,
 						three: r,
 						four: s,
-						five: l
+						five: l,
+						six: w
 					}
 				}
 			}, {
